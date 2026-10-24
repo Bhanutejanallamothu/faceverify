@@ -55,7 +55,7 @@ sequenceDiagram
 ## Technology Stack
 | Layer | Technology | Purpose |
 |---|---|---|
-| Core Language | Python 3.10+ | Biometric pipeline execution |
+| Core Language | Python 3.12+ | Biometric pipeline execution |
 | Computer Vision | OpenCV (cv2) | Image preprocessing, cropping, and color conversion |
 | Deep Learning | Dlib / face_recognition / NumPy | Face detection and landmark embeddings |
 | CI/CD | GitHub Actions | Automated build and test pipeline |
@@ -80,7 +80,7 @@ faceverify/
 ```
 
 ## Prerequisites
-- Python >= 3.10
+- Python >= 3.12
 - CMake and C++ build tools (required for Dlib compilation)
 - Webcam (for live verification capture)
 
